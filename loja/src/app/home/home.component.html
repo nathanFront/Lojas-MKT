@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col">
+        <h2>Produtos disponives para compra</h2>
+        <hr>
+        <table class="table">
+            <thead class="thead-dark">
+              <tr class="headerTable">
+                <th scope="col">#</th>
+                <th scope="col">Nome do Produto</th>
+                <th scope="col">Quantidade do Produto</th>
+                <th scope="col">Valor Unitario (R$)</th>
+                <th scope="col">Genêro</th>
+                <th scope="col">Tipo de Produto</th>
+                <th scope="col">Tamanho</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let listado of lista">
+                <th scope="row">{{listado.idProduto}}</th>
+                <td>{{listado.nomeProd}}</td>
+                <td>{{listado.qntProd}}</td>
+                <td>{{listado.valorUnit}}</td>
+                <td>{{listado.genero}}</td>
+                <td>{{listado.tipoProd}}</td>
+                <td>{{listado.modeloProd}}</td>                
+              </tr>             
+            </tbody>
+          </table>         
+         
+    </div>
+</div>

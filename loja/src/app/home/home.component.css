@@ -1,0 +1,15 @@
+.table{
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 55px;    
+}
+h2{
+    margin-left: 33px;
+    margin-top: 40px;
+    color: #21A1D8;
+}
+.table .thead-dark th {
+    color: white;
+    background-color: #0085BF !important;
+    border-color: #0085BF;
+}

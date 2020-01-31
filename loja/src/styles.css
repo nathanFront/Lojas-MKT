@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.fundo{
+    width: 100px;
+}
+
+
+
+.logoBRQ{
+    width: 130px;
+}
+
+.txtHeader{
+    text-align: right;  
+    color: #21A1D8;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Ebrima;
+    margin-right: 25px;
+}
+
+hr
+{
+    color: #21a1d8;
+    border: 2px solid;
+    width: 1320px;
+    margin-top: 0px;
+}

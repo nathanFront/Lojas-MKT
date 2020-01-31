@@ -1,0 +1,21 @@
+h3{
+    margin-left: 33px;
+    margin-top: 40px;
+    color: #21A1D8;
+}
+
+.mochila{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.demais{
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.blusaFeminina, .blusaMasc{
+    width: 60%;
+    margin-left: 20%;
+}
